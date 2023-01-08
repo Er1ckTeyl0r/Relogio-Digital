@@ -51,3 +51,22 @@ body {
     color: white;
     font-size: 60px;
 }
+
+@media (max-width: 600px) {
+    .container {
+        width: 400px;
+    }
+    .container div {
+        width: 110px;
+    }
+    .txt {
+        font-size: 40px;
+    }
+}
+
+@media (max-height: 500px) {
+    .txt {
+        font-size: 40px;
+        top: 20px;
+    }
+}

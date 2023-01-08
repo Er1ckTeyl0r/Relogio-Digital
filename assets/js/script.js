@@ -10,8 +10,6 @@ const relogio = setInterval(function time () {
     let min = dataToday.getMinutes()
     let seg = dataToday.getSeconds()
 
-   
-
     if (hr < 10) hr = '0' + hr;
 
     if (min < 10) min = '0' + min;
